@@ -1,0 +1,13 @@
+.logo {
+
+}
+
+li {
+	display:inline-block;
+
+}
+
+ul{
+	list-style-type: none;
+    float: right;
+}
