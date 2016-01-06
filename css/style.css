@@ -57,3 +57,7 @@ h1 {
     padding: 144px;
     line-height: 76px;
 }
+
+h1 a {
+	font-size: 60px;
+}
