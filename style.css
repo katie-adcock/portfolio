@@ -1,0 +1,19 @@
+.logo {
+
+}
+
+li {
+	display:inline-block;
+    text-decoration: none;
+    padding-right: 30px;
+
+}
+
+ul{
+	list-style-type: none;
+    float: right;
+}
+
+h1 {
+	color: blue;
+}
