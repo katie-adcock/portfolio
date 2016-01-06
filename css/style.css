@@ -18,13 +18,19 @@ li a{
     text-decoration: none;
     padding-right: 31px;
     color: #252525;
-
 }
+
+
+a {
+	color: #252525;
+}
+
 
 ul{
 	list-style-type: none;
     float: right;
 }
+
 
 h1 {
 	color: #252525;
