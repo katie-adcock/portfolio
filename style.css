@@ -2,7 +2,7 @@
 
 }
 
-li {
+li a {
 	display:inline-block;
     text-decoration: none;
     padding-right: 31px;
@@ -15,5 +15,6 @@ ul{
 }
 
 h1 {
-	color: blue;
+	color: #252525;
+    font-family: Work Sans;
 }
