@@ -49,4 +49,8 @@ ul{
 h1 {
 	color: #252525;
     font-family: Work Sans;
+    width: 80%;
+    font-size: 56px;
+    padding: 144px;
+    line-height: 76px;
 }
