@@ -5,24 +5,14 @@
 }
 
 
-li {
+
+
+.menu li {
 	display:inline-block;
     text-decoration: none;
     padding-right: 31px;
     color: #252525;
 
-}
-
-li a{
-	display:inline-block;
-    text-decoration: none;
-    padding-right: 31px;
-    color: #252525;
-}
-
-
-a {
-	color: #252525;
 }
 
 
