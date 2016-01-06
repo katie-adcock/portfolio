@@ -62,3 +62,8 @@ h1 a {
 	font-size: 60px;
 	text-decoration: none;
 }
+
+.homebackground {
+	display: block;
+	color: #252525;
+}
