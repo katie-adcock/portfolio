@@ -84,5 +84,10 @@ h1 a {
 .portfolio-description {
     display: inline;
     font-family: Work Sans;
+        display: inline;
+    font-family: Work Sans;
+    width: 30%;
+    top: 750px;
+    position: absolute;
 
 }
