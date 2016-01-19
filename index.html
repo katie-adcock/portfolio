@@ -7,6 +7,21 @@
 </head>
 <body>
 
+<script>// Rainbow animation
+(function animate() {
+    var block = $('#c1');
+    block.animate({backgroundColor: $.Color(block.css('backgroundColor')).hue('+=179')}, 3000, animate);
+})();
+
+// Flash highlight
+$('#c2').click(function(e) {
+    var block = $(e.target);
+    var color = $.Color(block.css('backgroundColor'));
+    block.animate({backgroundColor: color.lightness('+=0.4')}, 300, function() {
+        block.animate({backgroundColor: color}, 300);
+    });
+});</script>
+
 <header>
 	<div class="logo">K&mdash;A <a href="/home"></a></div>
 	<nav class="main">
@@ -18,7 +33,8 @@
 </header>
 
 <content>
-	<div class="background">
+	<div id="background1">
+	<div id="background2">
 	<h1> Katie Adcock is a Designer + Illustrator working at <a href="http://knownagency.com" target="_blank">KNOWN</a> in Richmond, Virginia. </h1>
 
 </content>
