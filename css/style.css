@@ -66,4 +66,8 @@ h1 a {
 .background {
 	display: block;
     background-color: cornsilk;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
 }
