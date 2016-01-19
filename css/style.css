@@ -80,10 +80,9 @@ h1 a {
     height: auto;
 }
 
-p {
-    font-family: Work Sans;
-}
+
 
 .portfolio-description {
     display: inline;
+    font-family: Work Sans;
 }
